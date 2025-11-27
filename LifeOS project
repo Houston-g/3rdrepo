@@ -1,5 +1,71 @@
-git init
-git add .
-git commit -m "Initial commit of LifeOS project"
-git branch -M main
-git push -u origin main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LifeOS – Post-Quantum Personal Archive</title>
+  <style>
+    body {
+      background-color: #0a0f14;
+      color: #e0f7fa;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2.5rem;
+      color: #00e5ff;
+    }
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    h2 {
+      font-family: 'JetBrains Mono', monospace;
+      color: #26c6da;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .cta button {
+      background: #00e5ff;
+      color: #0a0f14;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+    .cta button:hover {
+      background: #26c6da;
+    }
+  </style>
+</head>
+<body>
+  <header>LifeOS</header>
+  <section>
+    <h2>🔐 Secure Your Life</h2>
+    <p>LifeOS is a private, on-device operating system designed to archive and manage your life events with <strong>post-quantum encryption</strong>.</p>
+
+    <h2>📂 Features</h2>
+    <ul>
+      <li>Record thoughts, locations, biometrics, finances, documents, and media</li>
+      <li>Search and view your personal archive instantly</li>
+      <li>Cyberpunk-inspired interface with futuristic design</li>
+    </ul>
+
+    <h2>🛠️ Technology</h2>
+    <p>Built with React, Express, and PostgreSQL. Designed for Windows with a modern, dark UI.</p>
+
+    <div class="cta">
+      <button>Download for Windows</button>
+    </div>
+  </section>
+</body>
+</html>
